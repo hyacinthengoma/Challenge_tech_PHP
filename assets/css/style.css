@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+/* .member-item {
+  padding: 1.25em 0;  
+} */
+body > main > section > div {
+  padding: 0.25em 0;
+}
+
+body > main > section > div > p {
+  margin: 0;
+}
+
+footer {
+  margin-top: 4.9em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
+
+/* ******************MES AJOUTS****************** */
+header {
+  text-align: center;
+  width: 100%;
+}
+h1 {
+  width: 100%;
+  display: block;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
+body > header > h1 > img {
+  width: 100%;
+  max-width: 50%;
+}
+body > header > h1 > span {
+  display: block;
+}
+.member-list {
+  column-count: 3 !important;
+  grid-row-end: 3;
+  padding: 1.25em 0;
+
+  /* align-items: center;
+  align-items: center; */
+  text-align: center !important;
+}
+footer > p > a {
+  text-decoration: none;
+  list-style: none;
+  background: white;
+  border-radius: 10px;
+  padding: 0.3rem;
+  color: orange;
+}
